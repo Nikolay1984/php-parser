@@ -1,0 +1,98 @@
+
+php:S138³"tThis function "seek" has 158 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(ÕÕä™üÿÿÿÿ
+Ephp:S121Ò"0Add curly braces around the nested statement(s).(ø»‹ç
+b	php:S1192ß"GDefine a constant instead of duplicating this literal "CP1252" 4 times.(¢‰«ğüÿÿÿÿ
+Lphp:S131¦"7Add a "case default" clause to this "switch" statement.(Ë¨Û
+Ephp:S121·"0Add curly braces around the nested statement(s).(÷æ•™
+k	php:S1142‘"PReduce the number of returns of this function 12, down to the maximum allowed 3.(¨ÿ„“ùÿÿÿÿ
+D	php:S1066ñ"/Merge this if statement with the enclosing one.(ÎÉ%
+E	php:S1066ï"/Merge this if statement with the enclosing one.(µ£ÆÀ
+[	php:S1192*"FDefine a constant instead of duplicating this literal "UTF-8" 6 times.(Óó
+a	php:S1192Ö"FDefine a constant instead of duplicating this literal "width" 6 times.(ïŠøœúÿÿÿÿ
+7	php:S1110·"!Remove these useless parentheses.(ÍÏÖ
+\	php:S1192­"FDefine a constant instead of duplicating this literal "style" 3 times.( Š¦ß
+J	php:S1135»"4Complete the task associated to this "TODO" comment.(Ö’ÏÆ
+`	php:S1192»"KDefine a constant instead of duplicating this literal "ISO-8859-1" 3 times.(÷ªƒ\
+j	php:S1142ı"OReduce the number of returns of this function 5, down to the maximum allowed 3.(ßõÌ‡üÿÿÿÿ
+b	php:S1192Ÿ"LDefine a constant instead of duplicating this literal "___noise___" 3 times.(¤ëĞÈ
+p	php:S3776‘"URefactor this function to reduce its Cognitive Complexity from 110 to the 15 allowed.(¨ÿ„“ùÿÿÿÿ
+f	php:S1117À"KRename "$parent" which has the same name as the field declared at line 133.(£ê÷Úÿÿÿÿÿ
+j	php:S1142í"OReduce the number of returns of this function 4, down to the maximum allowed 3.(‡•¢Âşÿÿÿÿ
+D	php:S1481¸")Remove this unused "$cmb" local variable.(„é¿’úÿÿÿÿ
+J	php:S1135Æ"4Complete the task associated to this "TODO" comment.(É¾¸
+1	php:S3626æ"Remove this redundant jump.(ûÁİ…
+d	php:S1142¯"OReduce the number of returns of this function 5, down to the maximum allowed 3.(°æ÷
+J	php:S1066ç"/Merge this if statement with the enclosing one.(¸ „˜úÿÿÿÿ
+d	php:S1117ƒ"IRename "$pos" which has the same name as the field declared at line 1399.(å×€÷ùÿÿÿÿ
+`	php:S1871ñ"JThis case's code block is the same as the block for the case on line 1008.(—ïÏ¤
+j	php:S1142 "OReduce the number of returns of this function 7, down to the maximum allowed 3.(³©ÖĞùÿÿÿÿ
+d	php:S1192¬"IDefine a constant instead of duplicating this literal "optgroup" 3 times.(ÔâÙ·üÿÿÿÿ
+b	php:S1192Ú"GDefine a constant instead of duplicating this literal "height" 6 times.(şş÷úÿÿÿÿ
+`	php:S1192Ç"JDefine a constant instead of duplicating this literal "plaintext" 5 times.(ëŒâİ
+cphp:S127À"ORefactor the code to avoid updating the loop counter "$i" within the loop body.(½ıŸ&
+d	php:S1117ø"IRename "$pos" which has the same name as the field declared at line 1399.(õ£ŸÎúÿÿÿÿ
+Ephp:S121«"0Add curly braces around the nested statement(s).(çºí¥
+j	php:S3776¾"TRefactor this function to reduce its Cognitive Complexity from 45 to the 15 allowed.(³Ÿêı
+J	php:S1135û"4Complete the task associated to this "TODO" comment.(®ŒŒ…
+Ephp:S121¼"0Add curly braces around the nested statement(s).(“ñı—
+o	php:S3776ª	"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(½ø¶‰ùÿÿÿÿ
+_	php:S1117–"IRename "$doc" which has the same name as the field declared at line 1400.(ÍêĞ
+Gphp:S836Ù"2Review the data-flow - use of uninitialized value.(¤èÛá
+a	php:S1192†"FDefine a constant instead of duplicating this literal "class" 5 times.(îš¬Ñÿÿÿÿÿ
+…	php:S1448~"pClass "simple_html_dom_node" has 54 methods, which is greater than 20 authorized. Split it into smaller classes.(×™õ¨
+J	Web:S1135»"4Complete the task associated to this "TODO" comment.(Ö’ÏÆ
+lphp:S101~"XRename class "simple_html_dom_node" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(×™õ¨
+d	php:S1117·"IRename "$pos" which has the same name as the field declared at line 1399.(÷ÜÑ¯úÿÿÿÿ
+`	php:S1871ò"JThis case's code block is the same as the block for the case on line 1008.(²®àã
+Lphp:S131Ü"7Add a "case default" clause to this "switch" statement.(¢ø†ğ
+’php:S138‘"xThis function "read_tag" has 186 lines, which is greater than the 150 lines authorized. Split it into smaller functions.(¨ÿ„“ùÿÿÿÿ
+O	php:S1135"4Complete the task associated to this "TODO" comment.(å£®Çúÿÿÿÿ
+mphp:S101î
+"SRename class "simple_html_dom" to match the regular expression ^[A-Z][a-zA-Z0-9]*$.(ÉåÙıÿÿÿÿ
+o	php:S3776ı"TRefactor this function to reduce its Cognitive Complexity from 24 to the 15 allowed.(ßõÌ‡üÿÿÿÿ
+Jphp:S121ˆ"0Add curly braces around the nested statement(s).(îÊ‘Õıÿÿÿÿ
+`	php:S1192Ğ"JDefine a constant instead of duplicating this literal "innertext" 4 times.(›Ìİà
+S	php:S1854”"8Remove this useless assignment to local variable '$pos'.(õ«µëüÿÿÿÿ
+Q	php:S1109‚"/Move this closing curly brace to the next line.(Ğ­„€øÿÿÿÿ8¯à¾ƒÜ.
+w	php:S1488Î"\Immediately return this expression instead of assigning it to the temporary variable "$ret".(®öÉÑûÿÿÿÿ
+\php:S107¶"GThis function has 8 parameters, which is greater than the 7 authorized.(Ñõ÷õ
+Jphp:S121Ï"0Add curly braces around the nested statement(s).(×İçşÿÿÿÿ
+o	php:S3776‡"TRefactor this function to reduce its Cognitive Complexity from 57 to the 15 allowed.(Ê†§šùÿÿÿÿ
+Lphp:S836½	"2Review the data-flow - use of uninitialized value.(™ó¸ûÿÿÿÿÿ
+aphp:S1070"HThis function has 11 parameters, which is greater than the 7 authorized.(ñõâÅÿÿÿÿÿ
+c	php:S1301Ü"MReplace this "switch" statement with "if" statements to increase readability.(¢ø†ğ
+Lphp:S131›"7Add a "case default" clause to this "switch" statement.(˜×·â
+J	php:S1066ı"/Merge this if statement with the enclosing one.(©°ğıÿÿÿÿÿ
+b	php:S1192¬"GDefine a constant instead of duplicating this literal "option" 3 times.(ÔâÙ·üÿÿÿÿ
+G	php:S1172y"2Remove the unused function parameter "$show_attr".(¯úÇ
+B	php:S1172y"-Remove the unused function parameter "$deep".(¯úÇ
+e	php:S1142ç"OReduce the number of returns of this function 4, down to the maximum allowed 3.(ßòƒÔ
+e	php:S1142É"OReduce the number of returns of this function 6, down to the maximum allowed 3.(¼½÷’
+1	php:S3626´	"Remove this redundant jump.(ÉŠ©ƒ
+>	php:S1125õ"(Remove the literal "true" boolean value.(½†Í‹
+Ephp:S121¶"0Add curly braces around the nested statement(s).(ü–Ş
+`	php:S1117¹"JRename "$nodes" which has the same name as the field declared at line 132.(ı•²İ
+Lphp:S131ó"7Add a "case default" clause to this "switch" statement.(¢ø†ğ
+i	php:S3776¯"TRefactor this function to reduce its Cognitive Complexity from 23 to the 15 allowed.(°æ÷
+d	php:S1117î"IRename "$pos" which has the same name as the field declared at line 1399.(õ£ŸÎúÿÿÿÿ
+8php:S125T"Remove this commented out code.(»•‰“üÿÿÿÿ
+E	php:S1066Ã"/Merge this if statement with the enclosing one.(ù–¬Ğ
+4php:S125‰"Remove this commented out code.(–î”ê
+p	php:S3776³"URefactor this function to reduce its Cognitive Complexity from 141 to the 15 allowed.(ÕÕä™üÿÿÿÿ
+j	php:S3776Ê"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(äó¯ù
+j	php:S3776ç"TRefactor this function to reduce its Cognitive Complexity from 21 to the 15 allowed.(ßòƒÔ
+_	php:S1117¥"IRename "$pos" which has the same name as the field declared at line 1399.(ÍÂ—
+e	php:S1192Ï"JDefine a constant instead of duplicating this literal "outertext" 4 times.(³ê‹·ùÿÿÿÿ
+j	php:S1142ÿ"OReduce the number of returns of this function 4, down to the maximum allowed 3.(í©’Ôøÿÿÿÿ
+OWeb:AvoidCommentedOutCodeCheckƒ"Remove this commented out code.(Ù°ü‰úÿÿÿÿ
+e	php:S1142‘"OReduce the number of returns of this function 8, down to the maximum allowed 3.(¢ÒŠï
+J	php:S3801·"4Refactor this function to use "return" consistently.(–æ¦“
+Lphp:S836Ê	"2Review the data-flow - use of uninitialized value.(™ó¸ûÿÿÿÿÿ
+J	php:S1066Î"/Merge this if statement with the enclosing one.(ô¹Ğ½ûÿÿÿÿ
+O	php:S1135Ó"4Complete the task associated to this "TODO" comment.(Î•¯•øÿÿÿÿ
+j	php:S3776·"TRefactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.(–æ¦“
+z	php:S1488—	"_Immediately return this expression instead of assigning it to the temporary variable "$result".(™ÎÖ¨ÿÿÿÿÿ
+Lphp:S131ï"7Add a "case default" clause to this "switch" statement.(¢ø†ğ
+†	php:S1448î
+"kClass "simple_html_dom" has 36 methods, which is greater than 20 authorized. Split it into smaller classes.(ÉåÙıÿÿÿÿ
+e	php:S1142ñ"OReduce the number of returns of this function 5, down to the maximum allowed 3.(¼½÷’

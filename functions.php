@@ -3,9 +3,19 @@ function create_start_DomDocument(){
     $dom = new DomDocument('1.0','UTF-8');
     $dom->formatOutput = true;
     $dom->encoding = 'UTF-8';
-    $root  = $dom->appendChild($dom->createElement('root '));
-    return $root;
+    $dom->appendChild($dom->createElement('root'));
+    return $dom;
 }
+
+function add_XML_tag($dom, $tagName){
+    $newTag = $dom->documentElement->appendChild($dom->createElement($tagName));
+    return $newTag;
+}
+
+function add_text_to_XML_tag($dom,$tag,$text){
+    $tag->appendChild($dom->createTextNode($text));
+}
+
 function create_string_XML(){
 
 }
@@ -17,16 +27,29 @@ function get_DOM_html($url){
 //curl_setopt ( $ch, CURLOPT_HEADER, true );
     curl_setopt ( $ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" );
 
-    $res = curl_exec($ch);
+    $htmlStr = curl_exec($ch);
     curl_close($ch);
 
-    $html = str_get_html($res);
-    return $html;
+    $html = str_get_html($htmlStr);
+
+//    echo '<plaintext>';
+//echo $htmlStr;
+//echo '</plaintext>';
+
+
+   return $html;
+ //  return $htmlStr;
+
 
 }
 
 
-
+function debug($arr, $die = false){
+    echo "<pre>" . print_r($arr,true) . "</pre>";
+    if($die){
+        die("смертельный дебугер!");
+    }
+}
 
 //
 //$stuffs = $html->find('p');
