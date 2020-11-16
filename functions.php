@@ -20,29 +20,38 @@ function create_string_XML(){
 
 }
 
-function get_DOM_html($url){
+function get_json($url,$limit=10,$page=1){
     $ch = curl_init($url);
 
-    curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, true );
+    curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true );
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "page=$page&limit=$limit&sortBy=newest&currency=any&lang=ru");
 //curl_setopt ( $ch, CURLOPT_HEADER, true );
-    curl_setopt ( $ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" );
+    curl_setopt ($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" );
 
-    $htmlStr = curl_exec($ch);
+    $jsonResults = curl_exec($ch);
     curl_close($ch);
 
-    $html = str_get_html($htmlStr);
 
-//    echo '<plaintext>';
-//echo $htmlStr;
-//echo '</plaintext>';
-
-
-   return $html;
- //  return $htmlStr;
+    return $jsonResults ;
 
 
 }
 
+function get_limit_Apartments($url){
+    $ch = curl_init($url);
+
+    curl_setopt ($ch, CURLOPT_RETURNTRANSFER, true );
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, "page=3&limit=1&sortBy=newest&currency=any&lang=ru");
+//curl_setopt ( $ch, CURLOPT_HEADER, true );
+    curl_setopt ($ch, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.193 Safari/537.36" );
+
+    $jsonResults = curl_exec($ch);
+    curl_close($ch);
+    $arrApartments = json_decode($jsonResults, true);
+    return $arrApartments['found_results'];
+}
 
 function debug($arr, $die = false){
     echo "<pre>" . print_r($arr,true) . "</pre>";

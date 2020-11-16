@@ -1,30 +1,33 @@
 <?php
 require "functions.php";
-require "simple_html_dom.php";
 require "DomXML.php";
 error_reporting(E_ALL);
 
+$url = "https://www.levestates.com/wp-json/myhome/v1/estates";
+$page = 1;
+$dom = new DomXML();
+$res = 1;
 
-$domTarget = get_DOM_html("https://www.levestates.com/properties/");
-//$arrObjDomTarget = $domTarget->find('#results div.mh-grid');
-$body = $domTarget->find('body',0);
-$mh_layout = $body->children(4);
+while ($res !== 0){
+
+    $jsonRes = get_json($url,100,$page);
+    if(json_decode($jsonRes, true)["found_results"] !== 0){
+
+        $dom->parsJson($jsonRes);
+
+        $page++;
+
+    }else{
+        $res = 0;
+    }
 
 
-//
-//$dom = new DomXML();
-//
-//$bla = $dom->add_XML_tag('bla');
-//$dom->add_text_to_XML_tag($bla,'Great American Novel111');
-//
-//
-//
-//$str = $dom->saveXML(); // передача строки в test1
-//echo '<plaintext>';
-//echo $domTarget;
-//echo '</plaintext>';
-$domTarget->clear(); // подчищаем за собой
-unset($domTarget);
 
-debug($mh_layout);
+}
 
+
+
+
+echo "<plaintext>";
+echo $dom->saveXML();
+echo "</plaintext>";
